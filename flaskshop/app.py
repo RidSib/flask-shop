@@ -23,7 +23,7 @@ from flaskshop.utils import jinja_global_varibles, log_slow_queries, is_conversa
 
 
 def create_app(config_object=Config):
-    app = Flask(__name__.split(".")[0])
+    app = Flask(__name__.split(".")[0], static_folder='static')
     app.config.from_object(config_object)
     app.pluggy = manager.FlaskshopPluginManager("flaskshop")
     register_extensions(app)
