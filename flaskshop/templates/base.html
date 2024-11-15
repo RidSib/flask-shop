@@ -303,7 +303,7 @@
   </div>
   <div class="chat-input">
     <input type="text" id="messageInput" placeholder="Type your message...">
-    <button onclick="sendMessage()">
+    <button onclick="handleChatMessage()">
       <i class="fas fa-paper-plane"></i>
     </button>
   </div>
@@ -434,51 +434,7 @@
     {% endif %}
 {% endblock footer_scripts %}
 
-<script>
-function toggleChat() {
-  const chatWindow = document.getElementById('chatWindow');
-  if (chatWindow.style.display === 'none' || chatWindow.style.display === '') {
-    chatWindow.style.display = 'flex';
-  } else {
-    chatWindow.style.display = 'none';
-  }
-}
-
-function sendMessage() {
-  const input = document.getElementById('messageInput');
-  const message = input.value.trim();
-  
-  if (message) {
-    const messagesDiv = document.getElementById('chatMessages');
-    const messageElement = document.createElement('div');
-    messageElement.className = 'message sent';
-    messageElement.textContent = message;
-    messagesDiv.appendChild(messageElement);
-    
-    // Clear input
-    input.value = '';
-    
-    // Scroll to bottom
-    messagesDiv.scrollTop = messagesDiv.scrollHeight;
-    
-    // Simulate response (you'll want to replace this with actual backend communication)
-    setTimeout(() => {
-      const responseElement = document.createElement('div');
-      responseElement.className = 'message received';
-      responseElement.textContent = "Thanks for your message! Our team will get back to you soon.";
-      messagesDiv.appendChild(responseElement);
-      messagesDiv.scrollTop = messagesDiv.scrollHeight;
-    }, 1000);
-  }
-}
-
-// Allow sending message with Enter key
-document.getElementById('messageInput')?.addEventListener('keypress', function(e) {
-  if (e.key === 'Enter') {
-    sendMessage();
-  }
-});
-</script>
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
 </body>
 
 </html>
