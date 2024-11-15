@@ -2,7 +2,7 @@
 """The app module, containing the app factory function."""
 import sys
 
-from flask import Flask, render_template
+from flask import Flask, render_template, g
 
 from flaskshop import commands
 from flaskshop.extensions import (
@@ -19,7 +19,7 @@ from flaskshop.extensions import (
 from flaskshop.plugin import manager, spec
 from flaskshop.plugin.models import PluginRegistry
 from flaskshop.settings import Config
-from flaskshop.utils import jinja_global_varibles, log_slow_queries
+from flaskshop.utils import jinja_global_varibles, log_slow_queries, is_conversations_enabled
 
 
 def create_app(config_object=Config):
@@ -34,6 +34,8 @@ def create_app(config_object=Config):
     register_commands(app)
     jinja_global_varibles(app)
     log_slow_queries(app)
+    register_template_filters(app)
+    register_context_processors(app)
     return app
 
 
@@ -105,3 +107,22 @@ def load_plugins(app):
     except Exception as e:
         # when db migrate raise exception
         app.logger.error(e)
+
+
+def register_template_filters(app):
+    from .utils import route_exists
+    app.jinja_env.filters['route_exists'] = route_exists
+
+
+def register_context_processors(app):
+    @app.before_request
+    def before_request():
+        g.is_conversations_enabled = is_conversations_enabled()
+
+
+def register_template_context(app):
+    @app.context_processor
+    def utility_processor():
+        def is_conversations_enabled():
+            return True  # Temporarily return True for testing
+        return dict(is_conversations_enabled=is_conversations_enabled)

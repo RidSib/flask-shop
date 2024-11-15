@@ -91,3 +91,20 @@ def jinja_global_varibles(app):
     app.add_template_global(current_app, "current_app")
     app.add_template_global(get_sort_by_url, "get_sort_by_url")
     app.add_template_global(template_hook, "run_hook")
+
+
+def route_exists(endpoint):
+    """Check if a Flask route exists"""
+    try:
+        current_app.url_for(endpoint)
+        return True
+    except:
+        return False
+
+
+def is_conversations_enabled():
+    """Check if conversations plugin is enabled"""
+    try:
+        return current_app.blueprints.get('conversations_bp') is not None
+    except:
+        return False
