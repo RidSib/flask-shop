@@ -12,16 +12,23 @@ function toggleChat() {
 async function sendChatMessage(message) {
   try {
     console.log('Sending message:', message);
+    const url = 'http://127.0.0.1:5001/api/ask';
+    console.log('Sending to URL:', url);
     
-    // Wait for the fetch response
-    const response = await fetch('http://127.0.0.1:5001/api/ask', {
+    const requestBody = JSON.stringify({ message });
+    console.log('Request body:', requestBody);
+    
+    const response = await fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       },
-      body: JSON.stringify({ message })
+      body: requestBody
     });
+    
+    console.log('Full response:', response);
+    console.log('Response headers:', [...response.headers.entries()]);
     
     console.log('Response status:', response.status);
     
@@ -56,7 +63,6 @@ function updateChatUI(message, isReceived = false) {
   messagesDiv.scrollTop = messagesDiv.scrollHeight;
 }
 
-// Handle sending messages
 async function handleChatMessage() {
   try {
     const input = document.getElementById('messageInput');
@@ -64,9 +70,6 @@ async function handleChatMessage() {
     
     if (message) {
       updateChatUI(message);
-      input.value = '';
-      
-      // Wait for the API response
       const response = await sendChatMessage(message);
       console.log('Processed response:', response);
       
@@ -75,6 +78,7 @@ async function handleChatMessage() {
       } else {
         throw new Error('Invalid or empty response from API');
       }
+      input.value = '';
     }
   } catch (error) {
     console.error('Chat Error:', error.message);

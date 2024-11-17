@@ -1,0 +1,151 @@
+2024-11-17 17:56:52,574 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-17 17:56:52,575 INFO: [33mPress CTRL+C to quit[0m
+2024-11-17 17:56:52,576 INFO:  * Restarting with stat
+2024-11-17 17:56:54,037 WARNING:  * Debugger is active!
+2024-11-17 17:56:54,037 INFO:  * Debugger PIN: 108-652-634
+2024-11-17 17:57:37,152 INFO:  * Detected change in 'C:\\Users\\ridva\\flask-shop\\flask-shop\\app.py', reloading
+2024-11-17 17:57:37,325 INFO:  * Restarting with stat
+2024-11-17 17:57:41,861 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-17 17:57:41,861 INFO: [33mPress CTRL+C to quit[0m
+2024-11-17 17:57:41,861 INFO:  * Restarting with stat
+2024-11-17 17:57:43,396 WARNING:  * Debugger is active!
+2024-11-17 17:57:43,396 INFO:  * Debugger PIN: 108-652-634
+2024-11-17 17:57:59,563 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 17:57:59,563 INFO: [33mPress CTRL+C to quit[0m
+2024-11-17 17:58:03,259 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "GET / HTTP/1.1" 200 -
+2024-11-17 17:58:03,352 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/build/storefront.css HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,355 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/placeholders/t-shirts/1.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,359 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/empty-cart-bg.png HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,377 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/placeholders/t-shirts/3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,377 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/placeholders/t-shirts/4.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,377 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/build/storefront.js HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,385 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,388 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/placeholders/mugs/box-01.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,392 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/placeholders/mugs/3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,393 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/placeholders/mugs/4.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,415 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/mobile-menu.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,420 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/logo-document.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,423 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/search.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,423 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/close.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,425 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/cart.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,431 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/sale-bg.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,433 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/facebook-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,436 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/github-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,438 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/twitter-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,439 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/google-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,443 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/meetup-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,445 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/linkedin-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,450 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/dribbble-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,451 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/img/instagram-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,678 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/build/block1.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,678 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/build/block2.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,682 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/build/block3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,684 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/build/Lato-Bold.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,686 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/build/Lato-Regular.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,688 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /static/build/Lato-Light.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 17:58:03,717 INFO: 127.0.0.1 - - [17/Nov/2024 17:58:03] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-11-17 18:01:35,125 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 18:01:35,125 INFO: [33mPress CTRL+C to quit[0m
+2024-11-17 18:01:36,833 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "GET / HTTP/1.1" 200 -
+2024-11-17 18:01:36,964 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "[36mGET /static/build/storefront.css HTTP/1.1[0m" 304 -
+2024-11-17 18:01:36,971 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2024-11-17 18:01:36,977 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "[36mGET /static/placeholders/mugs/box-01.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:36,985 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "[36mGET /static/build/block1.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:36,987 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "[36mGET /static/build/storefront.js HTTP/1.1[0m" 304 -
+2024-11-17 18:01:36,996 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "[36mGET /static/build/Lato-Regular.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:01:36,997 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "[36mGET /static/build/Lato-Light.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:01:36,999 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:36] "[36mGET /static/build/Lato-Bold.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,004 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/empty-cart-bg.png HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,009 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/placeholders/t-shirts/3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,011 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/placeholders/t-shirts/1.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,011 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/placeholders/t-shirts/4.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,173 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/placeholders/mugs/4.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,173 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/placeholders/mugs/3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,174 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/build/block2.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,175 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/build/block3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,298 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/mobile-menu.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,318 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/logo-document.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,320 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/search.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,321 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/sale-bg.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,322 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/close.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,322 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/cart.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,323 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/facebook-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,338 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/twitter-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,352 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/github-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,358 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/google-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,365 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/meetup-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,369 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/linkedin-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,373 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/dribbble-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,378 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /static/img/instagram-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:01:37,380 INFO: 127.0.0.1 - - [17/Nov/2024 18:01:37] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-11-17 18:03:41,374 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 18:03:41,374 INFO: [33mPress CTRL+C to quit[0m
+2024-11-17 18:03:42,994 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:42] "GET / HTTP/1.1" 200 -
+2024-11-17 18:03:43,119 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/empty-cart-bg.png HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,123 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/build/storefront.css HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,132 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "GET /static/js/chat.js HTTP/1.1" 200 -
+2024-11-17 18:03:43,133 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/placeholders/mugs/box-01.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,141 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/placeholders/mugs/3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,143 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/placeholders/mugs/4.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,143 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/placeholders/t-shirts/1.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,145 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/build/block1.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,145 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/build/Lato-Regular.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,157 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/build/Lato-Light.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,159 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/build/Lato-Bold.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,160 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/build/block2.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,167 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/placeholders/t-shirts/3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,167 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/build/block3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,173 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/placeholders/t-shirts/4.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,173 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/build/storefront.js HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,473 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/mobile-menu.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,483 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/facebook-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,485 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/close.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,485 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/logo-document.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,485 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/cart.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,486 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/sale-bg.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,486 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/search.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,494 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/github-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,500 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/twitter-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,504 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/google-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,506 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/meetup-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,510 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/linkedin-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,513 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/dribbble-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,514 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /static/img/instagram-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:03:43,516 INFO: 127.0.0.1 - - [17/Nov/2024 18:03:43] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-11-17 18:06:35,989 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:35] "GET / HTTP/1.1" 200 -
+2024-11-17 18:06:36,037 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/build/storefront.css HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,045 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/empty-cart-bg.png HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,050 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/build/storefront.js HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,050 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/placeholders/t-shirts/1.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,057 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/placeholders/t-shirts/3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,064 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/placeholders/t-shirts/4.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,066 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,069 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/placeholders/mugs/box-01.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,075 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/placeholders/mugs/3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,076 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/placeholders/mugs/4.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,080 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/build/block1.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,088 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/build/block2.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,096 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/build/block3.jpg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,097 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/build/Lato-Regular.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,109 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/mobile-menu.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,113 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/logo-document.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,116 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/search.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,120 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/close.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,125 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/cart.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,129 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/sale-bg.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,134 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/build/Lato-Light.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,140 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/build/Lato-Bold.woff2 HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,144 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/facebook-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,148 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/github-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,150 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/twitter-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,153 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/google-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,158 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/meetup-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,159 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/linkedin-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,166 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/dribbble-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,167 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /static/img/instagram-logo.svg HTTP/1.1[0m" 304 -
+2024-11-17 18:06:36,513 INFO: 127.0.0.1 - - [17/Nov/2024 18:06:36] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
